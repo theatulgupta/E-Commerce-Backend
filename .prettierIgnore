@@ -1,0 +1,18 @@
+# Ignore all files in node_modules
+node_modules/
+
+# Ignore built output
+dist/
+build/
+out/
+
+# Ignore coverage reports
+coverage/
+
+# Ignore logs and temporary files
+logs/
+*.log
+*.tmp
+
+# Ignore Prettier configuration file itself
+.prettierrc

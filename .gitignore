@@ -1,0 +1,72 @@
+# Node.js
+node_modules/
+
+# Logs
+logs
+*.log
+
+# Dependency directories
+pids
+logs
+results
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Optional REPL history
+.node_repl_history
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Build output
+dist/
+build/
+out/
+
+# Environment variables
+.env
+
+# Editor and IDE files
+.vscode/
+.idea/
+
+# Tests
+__tests__/
+test/
+
+# Documentation
+docs/
+
+# Runtime data
+*.pid
+*.seed
+*.pid.lock
+
+# Yarn
+yarn-error.log
+yarn.lock
+yarn-integrity
+
+# Production dependencies
+*.production-dependencies
+
+# Package manager cache
+.pnpm/
+
+# Prettier
+prettier.config.js
+
+# Temporary files
+*.tmp
+
+# Continuous Integration
+node_modules/
+coverage/
+
+# Dependency directories
+jspm_packages/
