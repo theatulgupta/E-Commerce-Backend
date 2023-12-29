@@ -40,19 +40,19 @@ Before you begin, ensure you have the following installed:
 
 - Describe how to use your backend. Include information on authentication, API endpoints, and any other relevant details.
 
-### Navigate to the project directory
+1. Navigate to the project directory
 
   ```bash
    cd E-Commerce-Backend
 
-### Install dependencies
+2. Install dependencies
 
   ```bash
    npm install
 
-### Set up environment variables
+3. Set up environment variables
 
-- Create a .env file in the root directory and add the necessary environment variables.
+  Create a .env file in the root directory and add the necessary environment variables.
    ```bash
    PORT=5000
    DB_CONNECTION_URI=mongodb://localhost:27017/e_commerce
