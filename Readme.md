@@ -51,19 +51,18 @@ Before you begin, ensure you have the following installed:
 
 3. Set up environment variables
 
-  Create a .env file in the root directory and add the necessary environment variables.
+   - Create a .env file in the root directory and add the necessary environment variables.
 
-   ```bash
-   PORT=5000
-   DB_CONNECTION_URI=mongodb://localhost:27017/e_commerce
-   JWT_SECRET=your_jwt_secret_key
+    ```bash
+    PORT=5000
+    DB_CONNECTION_URI=mongodb://localhost:27017/e_commerce
+    JWT_SECRET=your_jwt_secret_key
 
 ### API Endpoints
 
 - Provide a list of important API endpoints and their descriptions.
   - POST /api/v1/users/createAccount: Register a new user.
   - POST /api/v1/users/login: Log in and receive a JWT token.
-
 
 - For more detailed documentation, refer to API Documentation.
 
