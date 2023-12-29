@@ -53,10 +53,10 @@ Before you begin, ensure you have the following installed:
 
    - Create a .env file in the root directory and add the necessary environment variables.
 
-    ```bash
-    PORT=5000
-    DB_CONNECTION_URI=mongodb://localhost:27017/e_commerce
-    JWT_SECRET=your_jwt_secret_key
+      ```bash
+      PORT=5000
+      DB_CONNECTION_URI=mongodb://localhost:27017/e_commerce
+      JWT_SECRET=your_jwt_secret_key
 
 ### API Endpoints
 
