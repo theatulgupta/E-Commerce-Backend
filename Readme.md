@@ -18,7 +18,6 @@ This is the backend for an upcoming E-Commerce Flutter app. It provides the serv
 - User authentication and authorization
 - Product management (CRUD operations)
 - Order processing
-- ...
 
 ## Getting Started
 
@@ -42,17 +41,18 @@ Before you begin, ensure you have the following installed:
 
 1. Navigate to the project directory
 
-  ```bash
+   ```bash
    cd E-Commerce-Backend
 
 2. Install dependencies
 
-  ```bash
+   ```bash
    npm install
 
 3. Set up environment variables
 
   Create a .env file in the root directory and add the necessary environment variables.
+
    ```bash
    PORT=5000
    DB_CONNECTION_URI=mongodb://localhost:27017/e_commerce
@@ -61,10 +61,9 @@ Before you begin, ensure you have the following installed:
 ### API Endpoints
 
 - Provide a list of important API endpoints and their descriptions.
+  - POST /api/v1/users/createAccount: Register a new user.
+  - POST /api/v1/users/login: Log in and receive a JWT token.
 
-- POST /api/v1/users/createAccount: Register a new user.
-- POST /api/v1/users/login: Log in and receive a JWT token.
-...
 
 - For more detailed documentation, refer to API Documentation.
 
