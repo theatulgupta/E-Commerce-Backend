@@ -1,8 +1,12 @@
+import cartRouter from './routes/cart.routes.js';
+import categoryRouter from './routes/category.routes.js';
 import cookieParser from 'cookie-parser';
 import cors from "cors";
 import express from "express";
 import helmet from 'helmet';
 import morgan from "morgan";
+import orderRouter from './routes/order.routes.js';
+import productRouter from './routes/product.routes.js';
 import userRouter from './routes/user.routes.js';
 
 const app = express();
@@ -32,5 +36,9 @@ app.use(morgan('dev'));
 
 // Routes declaration
 app.use("/api/v1/user", userRouter);
+app.use("/api/v1/category", categoryRouter);
+app.use("/api/v1/product", productRouter);
+app.use("/api/v1/cart", cartRouter);
+app.use("/api/v1/order", orderRouter);
 
 export { app };

@@ -63,18 +63,6 @@ userSchema.pre("save", function (next) {
     next();
 });
 
-userSchema.pre(["update", "findOneAndUpdate", "updateOne"], function (next) {
-    const update = this.getUpdate();
-
-    // Optionally remove _id from the update object
-    delete update._id;
-
-    // Update the updatedAt field
-    this.set({ updatedAt: new Date() });
-
-    next();
-});
-
 userSchema.methods.isPasswordCorrect = function (password) {
     return bcrypt.compareSync(password, this.password);
 }
